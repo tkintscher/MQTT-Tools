@@ -1,0 +1,20 @@
+{
+	"MQTT": {
+		"Host":   "localhost",
+		"Port":   1883,
+		"Client": "redshift",
+		"Prefix": "redshift",
+		"TLS":    false
+	},
+
+	"Redshift": {
+		"Time":          [ 5.5,  6.0,  11.0, 18.0, 20.0, 22.0 ],
+		"ColorTemp":     [ 2400, 6000, 5500, 4500, 3500, 2400 ],
+		"Brightness":    [ 0.5,  1.0,  1.0,  1.0,  0.8,  0.6  ],
+		"AdjustSeconds": 300,
+		"Lights":        [ "hue/lights/+" ],
+		"SleepSeconds":  0.1,
+		"UpdateCycles":  10
+	}
+}
+
